@@ -25,6 +25,8 @@ def create_story():
     cost = input("enter a cost: ")
     food = random.choice(foods)
     # generate a story w/ substitutions
+    
+    
     story = f"""I am hungry for {food}.
 I wish I had {num}.
 But I would need {cost} dollars!"""
